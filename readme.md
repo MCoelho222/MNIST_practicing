@@ -18,8 +18,8 @@ I have explored:
 # Conclusion
 
 * The **mnist** was successfully loaded.
-* The use 80% of the training data for training and 20% for validation seems to be appropriate
+* The use of 80% of the training data for training and 20% for validation seems to be appropriate
 * After adding batch normalization, there was a slight increase in accuracy, from 98% to 99%
 * The model seems to get overfitted after around 20 epochs (increase of validation loss observed)
 * Early stopping is a good method since it automatically stops the process when validation loss starts to increase
-* Learning rate reduction did not improved as expected
+* Learning rate reduction did not improved accuracy as expected
